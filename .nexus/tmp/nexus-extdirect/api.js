@@ -208,12 +208,12 @@ NX.direct.api.REMOTING_API = {
         formHandler: false
       },
       {
-        name: 'syncStatus',
+        name: 'stopWaiting',
         len: 0,
         formHandler: false
       },
       {
-        name: 'stopWaiting',
+        name: 'syncStatus',
         len: 0,
         formHandler: false
       },
@@ -404,12 +404,12 @@ NX.direct.api.REMOTING_API = {
         formHandler: false
       },
       {
-        name: 'updateRoleMappings',
+        name: 'updateAccount',
         len: 1,
         formHandler: false
       },
       {
-        name: 'updateAccount',
+        name: 'updateRoleMappings',
         len: 1,
         formHandler: false
       },

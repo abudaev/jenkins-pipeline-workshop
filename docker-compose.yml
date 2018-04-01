@@ -24,7 +24,7 @@ services:
   nexus:
     image: sonatype/nexus3:3.9.0
     volumes:
-      - ./.nexus:/nexus-data:z
+      - ./.nexus:/nexus-data:Z
     ports:
       - 8081:8081
       - 20000:20000

@@ -217,12 +217,12 @@ NX.direct.api.REMOTING_API = {
         formHandler: false
       },
       {
-        name: 'syncStatus'/*() => com.sonatype.nexus.migration.ui.AssistantComponent$SyncStatusXO */,
+        name: 'stopWaiting'/*() => boolean */,
         len: 0,
         formHandler: false
       },
       {
-        name: 'stopWaiting'/*() => boolean */,
+        name: 'syncStatus'/*() => com.sonatype.nexus.migration.ui.AssistantComponent$SyncStatusXO */,
         len: 0,
         formHandler: false
       },
@@ -413,12 +413,12 @@ NX.direct.api.REMOTING_API = {
         formHandler: false
       },
       {
-        name: 'updateRoleMappings'/*(org.sonatype.nexus.coreui.UserRoleMappingsXO) => org.sonatype.nexus.coreui.UserXO */,
+        name: 'updateAccount'/*(org.sonatype.nexus.coreui.UserAccountXO) => org.sonatype.nexus.coreui.UserAccountXO */,
         len: 1,
         formHandler: false
       },
       {
-        name: 'updateAccount'/*(org.sonatype.nexus.coreui.UserAccountXO) => org.sonatype.nexus.coreui.UserAccountXO */,
+        name: 'updateRoleMappings'/*(org.sonatype.nexus.coreui.UserRoleMappingsXO) => org.sonatype.nexus.coreui.UserXO */,
         len: 1,
         formHandler: false
       },
