@@ -5,7 +5,7 @@
     <parent>
         <groupId>io.jenkins.blueocean</groupId>
         <artifactId>blueocean-parent</artifactId>
-        <version>1.1.5</version>
+        <version>1.4.2</version>
     </parent>
 
     <artifactId>blueocean-web</artifactId>
@@ -22,11 +22,15 @@
         </dependency>
         <dependency>
             <groupId>org.jenkins-ci.plugins</groupId>
-            <artifactId>metrics</artifactId>
+            <artifactId>variant</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.jenkins-ci.plugins</groupId>
-            <artifactId>variant</artifactId>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>jenkins-design-language</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>blueocean-core-js</artifactId>
         </dependency>
 
         <!-- test scope deps -->

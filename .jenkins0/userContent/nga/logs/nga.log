@@ -1,0 +1,32 @@
+31/03/2018 20:49:55,245 INFO - PredictiveService: Added path to predictive folder. Path: /var/jenkins_home/predictive/predictive.pem
+31/03/2018 20:49:55,256 INFO - OctaneSDK: SDK has been initialized
+31/03/2018 20:49:58,307 WARN - UftJobCleaner: Initial delay 10 minutes, recurrencePeriod 1440 minutes, outdate threshold 7 days
+31/03/2018 21:05:47,590 INFO - PredictiveService: Added path to predictive folder. Path: /var/jenkins_home/predictive/predictive.pem
+31/03/2018 21:05:47,624 INFO - OctaneSDK: SDK has been initialized
+31/03/2018 21:05:50,803 WARN - UftJobCleaner: Initial delay 10 minutes, recurrencePeriod 1440 minutes, outdate threshold 7 days
+31/03/2018 21:08:51,755 INFO - PredictiveService: Added path to predictive folder. Path: /var/jenkins_home/predictive/predictive.pem
+31/03/2018 21:08:51,765 INFO - OctaneSDK: SDK has been initialized
+31/03/2018 21:08:54,218 WARN - UftJobCleaner: Initial delay 10 minutes, recurrencePeriod 1440 minutes, outdate threshold 7 days
+31/03/2018 21:14:35,897 INFO - PredictiveService: Added path to predictive folder. Path: /var/jenkins_home/predictive/predictive.pem
+31/03/2018 21:14:35,999 INFO - OctaneSDK: SDK has been initialized
+31/03/2018 21:14:39,333 WARN - UftJobCleaner: Initial delay 10 minutes, recurrencePeriod 1440 minutes, outdate threshold 7 days
+31/03/2018 21:18:55,448 INFO - PredictiveService: Added path to predictive folder. Path: /var/jenkins_home/predictive/predictive.pem
+31/03/2018 21:18:55,462 INFO - OctaneSDK: SDK has been initialized
+31/03/2018 21:18:58,795 WARN - UftJobCleaner: Initial delay 10 minutes, recurrencePeriod 1440 minutes, outdate threshold 7 days
+31/03/2018 21:21:14,832 INFO - PredictiveService: Added path to predictive folder. Path: /var/jenkins_home/predictive/predictive.pem
+31/03/2018 21:21:14,841 INFO - OctaneSDK: SDK has been initialized
+31/03/2018 21:21:17,336 WARN - UftJobCleaner: Initial delay 10 minutes, recurrencePeriod 1440 minutes, outdate threshold 7 days
+31/03/2018 21:31:17,763 WARN - UftJobCleaner: Cleaner found 0 outdated execution job
+31/03/2018 21:34:25,079 INFO - PredictiveService: Added path to predictive folder. Path: /var/jenkins_home/predictive/predictive.pem
+31/03/2018 21:34:25,089 INFO - OctaneSDK: SDK has been initialized
+31/03/2018 21:34:27,876 WARN - UftJobCleaner: Initial delay 10 minutes, recurrencePeriod 1440 minutes, outdate threshold 7 days
+31/03/2018 21:37:27,044 INFO - PredictiveService: Added path to predictive folder. Path: /var/jenkins_home/predictive/predictive.pem
+31/03/2018 21:37:27,094 INFO - OctaneSDK: SDK has been initialized
+31/03/2018 21:37:34,260 WARN - UftJobCleaner: Initial delay 10 minutes, recurrencePeriod 1440 minutes, outdate threshold 7 days
+31/03/2018 21:47:35,015 WARN - UftJobCleaner: Cleaner found 0 outdated execution job
+31/03/2018 21:53:15,700 INFO - PredictiveService: Added path to predictive folder. Path: /var/jenkins_home/predictive/predictive.pem
+31/03/2018 21:53:15,713 INFO - OctaneSDK: SDK has been initialized
+31/03/2018 21:53:20,696 WARN - UftJobCleaner: Initial delay 10 minutes, recurrencePeriod 1440 minutes, outdate threshold 7 days
+31/03/2018 22:04:07,498 INFO - PredictiveService: Added path to predictive folder. Path: /var/jenkins_home/predictive/predictive.pem
+31/03/2018 22:04:07,636 INFO - OctaneSDK: SDK has been initialized
+31/03/2018 22:04:17,174 WARN - UftJobCleaner: Initial delay 10 minutes, recurrencePeriod 1440 minutes, outdate threshold 7 days

@@ -125,6 +125,13 @@ NX.direct.api.REMOTING_API = {
         formHandler: false
       }
     ],
+    firewall_RepositoryStatus: [
+      {
+        name: 'read'/*() => java.util.List */,
+        len: 0,
+        formHandler: false
+      }
+    ],
     rapture_State: [
     ],
     coreui_Blobstore: [
@@ -150,6 +157,13 @@ NX.direct.api.REMOTING_API = {
       },
       {
         name: 'remove'/*(String) => void */,
+        len: 1,
+        formHandler: false
+      }
+    ],
+    coreui_Browse: [
+      {
+        name: 'read'/*(org.sonatype.nexus.coreui.TreeStoreLoadParameters) => java.util.List */,
         len: 1,
         formHandler: false
       }
@@ -316,7 +330,24 @@ NX.direct.api.REMOTING_API = {
         formHandler: false
       }
     ],
+    coreui_Upload: [
+      {
+        name: 'getUploadDefinitions'/*() => java.util.Collection */,
+        len: 0,
+        formHandler: false
+      },
+      {
+        name: 'doUpload'/*() => String -- FORM HANDLER */,
+        len: 1,
+        formHandler: true
+      }
+    ],
     coreui_DatabaseFreeze: [
+      {
+        name: 'forceRelease'/*() => org.sonatype.nexus.coreui.DatabaseFreezeStatusXO */,
+        len: 0,
+        formHandler: false
+      },
       {
         name: 'read'/*() => org.sonatype.nexus.coreui.DatabaseFreezeStatusXO */,
         len: 0,
@@ -675,6 +706,33 @@ NX.direct.api.REMOTING_API = {
         formHandler: false
       }
     ],
+    clm_CLM: [
+      {
+        name: 'verifyConnection'/*(com.sonatype.nexus.clm.internal.ui.ClmXO) => java.util.List */,
+        len: 1,
+        formHandler: false
+      },
+      {
+        name: 'read'/*() => com.sonatype.nexus.clm.internal.ui.ClmXO */,
+        len: 0,
+        formHandler: false
+      },
+      {
+        name: 'update'/*(com.sonatype.nexus.clm.internal.ui.ClmXO) => com.sonatype.nexus.clm.internal.ui.ClmXO */,
+        len: 1,
+        formHandler: false
+      },
+      {
+        name: 'authTypes'/*() => java.util.List */,
+        len: 0,
+        formHandler: false
+      },
+      {
+        name: 'readApplications'/*() => java.util.List */,
+        len: 0,
+        formHandler: false
+      }
+    ],
     ssl_Certificate: [
       {
         name: 'details'/*(String) => com.sonatype.nexus.ssl.plugin.internal.ui.CertificateXO */,
@@ -774,6 +832,8 @@ NX.direct.api.REMOTING_API = {
         len: 1,
         formHandler: false
       }
+    ],
+    ClmStateContributor: [
     ],
     logging_Log: [
       {

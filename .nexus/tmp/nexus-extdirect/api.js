@@ -116,6 +116,13 @@ NX.direct.api.REMOTING_API = {
         formHandler: false
       }
     ],
+    firewall_RepositoryStatus: [
+      {
+        name: 'read',
+        len: 0,
+        formHandler: false
+      }
+    ],
     rapture_State: [
     ],
     coreui_Blobstore: [
@@ -141,6 +148,13 @@ NX.direct.api.REMOTING_API = {
       },
       {
         name: 'remove',
+        len: 1,
+        formHandler: false
+      }
+    ],
+    coreui_Browse: [
+      {
+        name: 'read',
         len: 1,
         formHandler: false
       }
@@ -307,7 +321,24 @@ NX.direct.api.REMOTING_API = {
         formHandler: false
       }
     ],
+    coreui_Upload: [
+      {
+        name: 'getUploadDefinitions',
+        len: 0,
+        formHandler: false
+      },
+      {
+        name: 'doUpload',
+        len: 1,
+        formHandler: true
+      }
+    ],
     coreui_DatabaseFreeze: [
+      {
+        name: 'forceRelease',
+        len: 0,
+        formHandler: false
+      },
       {
         name: 'read',
         len: 0,
@@ -666,6 +697,33 @@ NX.direct.api.REMOTING_API = {
         formHandler: false
       }
     ],
+    clm_CLM: [
+      {
+        name: 'verifyConnection',
+        len: 1,
+        formHandler: false
+      },
+      {
+        name: 'read',
+        len: 0,
+        formHandler: false
+      },
+      {
+        name: 'update',
+        len: 1,
+        formHandler: false
+      },
+      {
+        name: 'authTypes',
+        len: 0,
+        formHandler: false
+      },
+      {
+        name: 'readApplications',
+        len: 0,
+        formHandler: false
+      }
+    ],
     ssl_Certificate: [
       {
         name: 'details',
@@ -765,6 +823,8 @@ NX.direct.api.REMOTING_API = {
         len: 1,
         formHandler: false
       }
+    ],
+    ClmStateContributor: [
     ],
     logging_Log: [
       {

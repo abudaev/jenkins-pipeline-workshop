@@ -1,0 +1,43 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: kazaky
+Build-Jdk: 1.8.0_131
+Extension-Name: hp-application-automation-tools-plugin
+Specification-Title: The plugin integrates Jenkins with the following 
+ HPE products - Service Virtualization, LoadRunner, Performance Center
+ , Unified Functional Testing, QuickTest Professional, Service Test, M
+ obile Center, Application Lifecycle Management and Application Lifecy
+ cle Management Octane.
+Specification-Vendor: HPE
+Implementation-Vendor: HPE
+Implementation-Title: hp-application-automation-tools-plugin
+Implementation-Version: 5.3
+Group-Id: org.jenkins-ci.plugins
+Short-Name: hp-application-automation-tools-plugin
+Long-Name: HPE Application Automation Tools
+Url: https://wiki.jenkins-ci.org/display/JENKINS/HPE+Application+Autom
+ ation+Tools
+Plugin-Version: 5.3
+Hudson-Version: 1.642.4
+Jenkins-Version: 1.642.4
+Plugin-Dependencies: branch-api:1.10;resolution:=optional,pipeline-bui
+ ld-step:2.2,mailer:1.16,structs:1.4,ssh-credentials:1.13,workflow-cps
+ :2.6,dynamicparameter:0.2.0;resolution:=optional,git-client:1.19.6,wo
+ rkflow-aggregator:2.2,jquery:1.7.2-1;resolution:=optional,parameteriz
+ ed-trigger:2.25;resolution:=optional,matrix-project:1.6,workflow-step
+ -api:2.2,nodelabelparameter:1.5.0;resolution:=optional,git:2.4.4;reso
+ lution:=optional,random-string-parameter:1.0;resolution:=optional,ext
+ ended-choice-parameter:0.34;resolution:=optional,credentials:2.1.4,je
+ nkins-multijob-plugin:1.15;resolution:=optional,pipeline-rest-api:1.7
+ ;resolution:=optional,maven-plugin:2.6,git-server:1.7;resolution:=opt
+ ional,junit:1.19,token-macro:1.12;resolution:=optional,subversion:2.5
+ ;resolution:=optional
+Plugin-Developers: Fima (Yafim) Kazak:YafimK:kazak@hpe.com,Michael Sel
+ din:mseldin:michael.seldin@hpe.com,Roy Lu:Rlu:li.lu@hpe.com,Pavel Chu
+ chma:pavelchuchma:pavel.chuchma@hpe.com,Avishai Moshka:imrman:avishai
+ .moshka@hp.com,Amit Bezalel:amitb:amit.bezalel@hpe.com,Hanan Bem:bamh
+ :hanan.bem@hpe.com,Weimin Jing:michaelhpe:weimin.jing@hpe.com,Chunjia
+ ng Zhu (Jacky):JackyZhuHPE:chun-jiang.zhu@hpe.com
+Support-Dynamic-Loading: false
+

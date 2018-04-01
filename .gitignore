@@ -1,4 +1,8 @@
 /.jenkins-backup/
 /.jenkins-workspace/
-**/*.log
+**/*.log**
 *.DS_Store
+.idea/**
+**/*.bak
+**/*.iml
+**sonarqube/data/es5/nodes/**

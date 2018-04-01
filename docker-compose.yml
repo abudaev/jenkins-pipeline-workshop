@@ -2,7 +2,7 @@ version: '2'
 
 services:
   jenkins0:
-    image: jenkins:2.60.2
+    image: jenkins/jenkins:2.89.4
     ports:
       - 8080:8080
       - 50000:50000
@@ -22,9 +22,9 @@ services:
     command: TCP4-LISTEN:2375,fork,reuseaddr UNIX-CONNECT:/var/run/docker.sock
 
   nexus:
-    image: sonatype/nexus3:3.5.0
+    image: sonatype/nexus3:3.9.0
     volumes:
-      - ./.nexus:/nexus-data
+      - ./.nexus:/nexus-data:z
     ports:
       - 8081:8081
       - 20000:20000
@@ -40,7 +40,7 @@ services:
       - ./.bitbucket:/var/atlassian/application-data/bitbucket
 
   sonar:
-    image: sonarqube:6.4-alpine
+    image: sonarqube:6.7.2-alpine
     ports:
       - 9000:9000
       - 9092:9092

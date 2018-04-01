@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<com.hpe.application.automation.tools.settings.OctaneServerSettingsBuilder_-OctaneDescriptorImpl plugin="hp-application-automation-tools-plugin@5.3">
+  <servers>
+    <com.hpe.application.automation.tools.model.OctaneServerSettingsModel>
+      <identity>070daf63-7f4f-4e33-bdc6-47a80f05d27e</identity>
+      <identityFrom>1522529394580</identityFrom>
+    </com.hpe.application.automation.tools.model.OctaneServerSettingsModel>
+  </servers>
+</com.hpe.application.automation.tools.settings.OctaneServerSettingsBuilder_-OctaneDescriptorImpl>
